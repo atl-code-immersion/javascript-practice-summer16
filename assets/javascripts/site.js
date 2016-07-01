@@ -1,8 +1,12 @@
-$('#circle').click(function () {
+$('#circle').click(function() {
+	$('h2').html("We <strong>changed</strong> the text!");
+})
+
+$('#circle').hover(function () {
 	$(this).css('background','yellow');
 })
 
-$('.square').click(function () {
+$('.square').hover(function () {
 	$(this).css('background','blue');
 })
 
